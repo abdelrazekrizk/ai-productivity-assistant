@@ -1,0 +1,29 @@
+    {
+      "manifest_version": 3,
+      "name": "AI Productivity Assistant",
+      "version": "1.0",
+      "description": "An AI-powered tool to manage emails, generate content, and translate text.",
+      "trial_tokens": [
+                      "Av8adQFXh6iBvdpd1laremvAjV0+fAHsK+/amuO8bMASx7kdo8nd9GJ7D6j5q4FVpxYXfWnirXLq7pj1UQFYOw4AAABzeyJvcmlnaW4iOiJjaHJvbWUtZXh0ZW5zaW9uOi8vbWNmZGtvbWRqcGlqZ2NmbnBobGJlamhlZmptYWpqYWUiLCJmZWF0dXJlIjoiQUlTdW1tYXJpemF0aW9uQVBJIiwiZXhwaXJ5IjoxNzUzMTQyNDAwfQ=="],
+      "permissions": ["activeTab", "scripting", "storage"],
+      "host_permissions": ["https://*/*"],
+
+      "background": {
+        "service_worker": "background.js"
+      },
+      "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+          "16": "./assets/icon16.png",
+          "48": "./assets/icon48.png",
+          "96": "./assets/icon96.png",
+          "128": "./assets/icon128.png"
+        }
+      },
+      "icons": {
+        "16": "./assets/icon16.png",
+        "48": "./assets/icon48.png",
+        "96": "./assets/icon96.png",
+        "128": "./assets/icon128.png"
+      }
+    }
